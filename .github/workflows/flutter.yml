@@ -1,0 +1,29 @@
+name: Flutter CI
+
+on:
+  push:
+    paths:
+      - 'ckes-paygateway/**'
+  pull_request:
+    paths:
+      - 'ckes-paygateway/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: ckes-paygateway
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+
+      - name: Install dependencies
+        run: flutter pub get
+        working-directory: ckes-paygateway
+
+      - name: Run tests
+        run: flutter test
+        working-directory: ckes-paygateway
+
