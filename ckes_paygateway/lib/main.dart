@@ -1,6 +1,10 @@
 import 'package:ckes_paygateway/screens/auth_client.dart';
+import 'package:ckes_paygateway/screens/confirm_funds_screen.dart';
+import 'package:ckes_paygateway/screens/contact_search_screen.dart';
 import 'package:ckes_paygateway/screens/login_screen.dart';
+import 'package:ckes_paygateway/screens/paystack_screen.dart';
 import 'package:ckes_paygateway/screens/registration_screen.dart';
+import 'package:ckes_paygateway/screens/sending_funds_screen.dart';
 import 'package:ckes_paygateway/screens/zkp_auth.dart';
 import 'package:ckes_paygateway/theme/app_theme.dart';
 import 'package:flutter/material.dart';
@@ -28,7 +32,7 @@ class MyApp extends StatelessWidget {
       // home: const LoginScreen(),
       // home: const ZkpAuthScreen(),
       // home: const ZKPAuthPage(),
-      home: const RegistrationScreen(),
+      home:  const ContactSearchScreen(),
     );
   }
 }
