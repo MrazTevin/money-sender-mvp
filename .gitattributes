@@ -1,0 +1,29 @@
+# --- Tell GitHub Linguist how to detect languages ---
+
+# Treat everything under lib/ as Dart (Flutter app code)
+lib/* linguist-language=Dart
+
+# Ignore build and platform-specific junk
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+web/** linguist-vendored
+
+# Ignore generated files
+*.g.dart linguist-generated=true
+*.freezed.dart linguist-generated=true
+*.pb.dart linguist-generated=true
+
+# Ignore build configs and C++ artifacts
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
+*.cpp linguist-vendored
+*.h linguist-vendored
+
+# Ignore HTML used for web embedding
+*.html linguist-vendored
+
+# Keep Dart as the visible core language
+*.dart linguist-detectable=true
