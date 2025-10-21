@@ -1,6 +1,6 @@
 # cKESH Payment Gateway 
 
-**cKESH** is a **decentralized payment gateway and peer-to-peer (P2P) payment platform** that enables users to **send stablecoins instantly** and **pay merchants for their services** — all powered by blockchain technology. Inspired by the simplicity of **Cash App**, cKESH combines **user-friendly design** with the **transparency and security** of decentralized finance (DeFi).
+**cKESH** is a **decentralized payment gateway and peer-to-peer (P2P) payment platform** that enables users to **send stablecoins instantly** and **pay merchants for their services**all,  powered by blockchain technology. Inspired by the simplicity of **Cash App**, cKESH combines **user-friendly design** with the **transparency and security** of decentralized finance (DeFi).
 
 ## 🚀 Features
 
