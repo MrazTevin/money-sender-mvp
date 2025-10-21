@@ -1,6 +1,6 @@
-# cKES Payment Gateway
+# cKESH Payment Gateway 
 
-cKES is a decentralized payment gateway that enables users to send stablecoins to one another and pay merchants for their services. Inspired by platforms like CashApp, cKES leverages blockchain technology to provide secure and stable transactions using digital currencies.
+**cKESH** is a **decentralized payment gateway and peer-to-peer (P2P) payment platform** that enables users to **send stablecoins instantly** and **pay merchants for their services** — all powered by blockchain technology. Inspired by the simplicity of **Cash App**, cKESH combines **user-friendly design** with the **transparency and security** of decentralized finance (DeFi).
 
 ## 🚀 Features
 
@@ -29,4 +29,7 @@ cKES is a decentralized payment gateway that enables users to send stablecoins t
 - Launch the MVP and gather user feedback.
 - Integrate with existing fiat and cryptocurrency payment systems.
 - Expand to support multiple stablecoins and blockchain networks.
+- Enable **merchant onboarding** with crypto–fiat conversion tools.
+
+
 
